@@ -12,7 +12,13 @@ for i in range(ord('A'), ord('Z') + 1):
 try:
     ans = 0
     while True:
-        for i in range(3)
+        s = input()
+        n = len(s)
+        s1 = s[:(n // 2)]
+        s2 = s[(n // 2):]
+        a = list(set(s1) & set(s2))
+        a = a[0]
+        ans += d[a]
 
 
 except EOFError:
